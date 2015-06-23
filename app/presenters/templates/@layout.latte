@@ -7,10 +7,12 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>{ifset title}{include title|striptags} | {/ifset}Nette Sandbox</title>
 
-        <link rel="stylesheet" href="{$basePath}/css/bootstrap.css">
+
         <Style type="text/css">
             body{
                 padding-top: 60px;
@@ -28,9 +30,9 @@
                     padding-right: 5px;
                 }
             }</style>
-        <link rel="stylesheet" href="{$basePath}/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="{$basePath}\node_modules\bootstrap\dist\css\bootstrap-theme.css">
         <link rel="shortcut icon" href="{$basePath}/favicon.ico">
-        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         {block head}{/block}
     </head>
 
@@ -48,21 +50,10 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li role="separator" class="divider"></li>
-                                <li class="dropdown-header">Nav header</li>
-                                <li><a href="#">Separated link</a></li>
-                                <li><a href="#">One more separated link</a></li>
-                            </ul>
-                        </li>
+                        <li><a n:href="Homepage:default">Home</a></li>
+                        <li><a n:href="Activity:show">Activity</a></li>
+                        <!--<li><a n:href="Contact:show">Contact</a></li>-->
+                        <li><a n:href="Schedule:show">Schedule</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="../navbar/">Default</a></li>
@@ -84,14 +75,15 @@
 
 
         {block scripts}
-        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="//nette.github.io/resources/js/netteForms.min.js"></script>
-        <script src="{$basePath}/js/bootstrap.min.js"></script>
-        <script src="{$basePath}/js/npm.js"></script>
-        <script src="{$basePath}/js/js/transition.js"></script>
-        <script src="{$basePath}/js/js/transition.js"></script>
-        <script src="{$basePath}/js/js/tooltip.js"></script>
-        <script src="{$basePath}/js/js/popover.js"></script>
+
+
+
         {/block}
     </body>
 </html>

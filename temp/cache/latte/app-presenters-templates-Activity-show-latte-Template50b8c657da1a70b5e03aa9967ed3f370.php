@@ -1,7 +1,18 @@
-{* Latte template *}
+<?php
+// source: D:\weblocal\goldlife\app\presenters/templates/Activity/show.latte
 
-{block content}
-<div class="container">
+class Template50b8c657da1a70b5e03aa9967ed3f370 extends Latte\Template {
+function render() {
+foreach ($this->params as $__k => $__v) $$__k = $__v; unset($__k, $__v);
+// prolog Latte\Macros\CoreMacros
+list($_b, $_g, $_l) = $template->initialize('4c98e54bbb', 'html')
+;
+// prolog Latte\Macros\BlockMacros
+//
+// block content
+//
+if (!function_exists($_b->blocks['content'][] = '_lbd6ca82713a_content')) { function _lbd6ca82713a_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
+?><div class="container">
 
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
@@ -20,29 +31,27 @@
                         <div class="panel-body">
                             <table class="table table-hover">
                                 <tr><th>name</th><th>From</th><th>To</th><th>Beginning</th><th>End</th><th>How often?</th><th>Kids</th><th>action</th></tr>
-                                        {foreach $activities as $activity}
-                                            {if $activity->season =='year'}
+<?php $iterations = 0; foreach ($activities as $activity) { if ($activity->season =='year') { ?>
                                         <tr>
-                                            <td>{$activity->name}</td>
-                                            <td>{$activity->date_start|date:'j. n. Y'}</td>
-                                            <td>{$activity->date_end|date:'j. n. Y'}</td>
-                                            <td>{$activity->time_start|date:'%H:%I'}</td>
-                                            <td>{$activity->time_end|date:'%H:%I'}</td>
-                                            <td>{$activity->how_often}</td>
-                                            <td>{$activity->kids}</td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->name, ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->date_start, 'j. n. Y'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->date_end, 'j. n. Y'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_start, '%H:%I'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_end, '%H:%I'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->how_often, ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->kids, ENT_NOQUOTES) ?></td>
                                             <td><!-- Single button -->
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                         <span class="glyphicon glyphicon-info-sign"></span> 
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li style="padding-left: 10px; padding-right: 10px;">{$activity->info}</li>
+                                                        <li style="padding-left: 10px; padding-right: 10px;"><?php echo Latte\Runtime\Filters::escapeHtml($activity->info, ENT_NOQUOTES) ?></li>
                                                     </ul>
                                                 </div>
                                             </td>
                                         </tr>
-                                    {/if}
-                                {/foreach}
+<?php } $iterations++; } ?>
                             </table>
                         </div>
                     </div>
@@ -59,29 +68,27 @@
                         <div class="panel-body">
                             <table class="table table-hover">
                                 <tr><th>name</th><th>From</th><th>To</th><th>Beginning</th><th>End</th><th>How often?</th><th>Kids</th><th>action</th></tr>
-                                        {foreach $activities as $activity}
-                                            {if $activity->season =='summer'}
+<?php $iterations = 0; foreach ($activities as $activity) { if ($activity->season =='summer') { ?>
                                         <tr>
-                                            <td>{$activity->name}</td>
-                                            <td>{$activity->date_start|date:'j. n. Y'}</td>
-                                            <td>{$activity->date_end|date:'j. n. Y'}</td>
-                                            <td>{$activity->time_start|date:'%H:%I'}</td>
-                                            <td>{$activity->time_end|date:'%H:%I'}</td>
-                                            <td>{$activity->how_often}</td>
-                                            <td>{$activity->kids}</td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->name, ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->date_start, 'j. n. Y'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->date_end, 'j. n. Y'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_start, '%H:%I'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_end, '%H:%I'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->how_often, ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->kids, ENT_NOQUOTES) ?></td>
                                             <td><!-- Single button -->
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                         <span class="glyphicon glyphicon-info-sign"></span> 
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li style="padding-left: 10px; padding-right: 10px;">{$activity->info}</li>
+                                                        <li style="padding-left: 10px; padding-right: 10px;"><?php echo Latte\Runtime\Filters::escapeHtml($activity->info, ENT_NOQUOTES) ?></li>
                                                     </ul>
                                                 </div>
                                             </td>
                                         </tr>
-                                    {/if}
-                                {/foreach}
+<?php } $iterations++; } ?>
                             </table>
                         </div>
                     </div>
@@ -98,29 +105,27 @@
                         <div class="panel-body">
                             <table class="table table-hover">
                                 <tr><th>name</th><th>From</th><th>To</th><th>Beginning</th><th>End</th><th>How often?</th><th>Kids</th><th>action</th></tr>
-                                        {foreach $activities as $activity}
-                                            {if $activity->season =='winter'}
+<?php $iterations = 0; foreach ($activities as $activity) { if ($activity->season =='winter') { ?>
                                         <tr>
-                                            <td>{$activity->name}</td>
-                                            <td>{$activity->date_start|date:'j. n. Y'}</td>
-                                            <td>{$activity->date_end|date:'j. n. Y'}</td>
-                                            <td>{$activity->time_start|date:'%H:%I'}</td>
-                                            <td>{$activity->time_end|date:'%H:%I'}</td>
-                                            <td>{$activity->how_often}</td>
-                                            <td>{$activity->kids}</td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->name, ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->date_start, 'j. n. Y'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->date_end, 'j. n. Y'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_start, '%H:%I'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_end, '%H:%I'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->how_often, ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->kids, ENT_NOQUOTES) ?></td>
                                             <td><!-- Single button -->
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                         <span class="glyphicon glyphicon-info-sign"></span> 
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li style="padding-left: 10px; padding-right: 10px;">{$activity->info}</li>
+                                                        <li style="padding-left: 10px; padding-right: 10px;"><?php echo Latte\Runtime\Filters::escapeHtml($activity->info, ENT_NOQUOTES) ?></li>
                                                     </ul>
                                                 </div>
                                             </td>
                                         </tr>
-                                    {/if}
-                                {/foreach}
+<?php } $iterations++; } ?>
                             </table>
                         </div>
                     </div>
@@ -137,30 +142,28 @@
                         <div class="panel-body">
                             <table class="table table-hover">
                                 <tr><th>name</th><th>From</th><th>To</th><th>Beginning</th><th>End</th><th>How often?</th><th>Kids</th><th>action</th></tr>
-                                        {foreach $activities as $activity}
-                                            {if $activity->season =='one_time_events'}
+<?php $iterations = 0; foreach ($activities as $activity) { if ($activity->season =='one_time_events') { ?>
                                         <tr>
-                                            <td>{$activity->name}</td>
-                                            <td>{$activity->date_start|date:'j. n. Y'}</td>
-                                            <td>{$activity->date_end|date:'j. n. Y'}</td>
-                                            <td>{$activity->time_start|date:'%H:%I'}</td>
-                                            <td>{$activity->time_end|date:'%H:%I'}</td>
-                                            <td>{$activity->how_often}</td>
-                                            <td>{$activity->kids}</td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->name, ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->date_start, 'j. n. Y'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->date_end, 'j. n. Y'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_start, '%H:%I'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_end, '%H:%I'), ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->how_often, ENT_NOQUOTES) ?></td>
+                                            <td><?php echo Latte\Runtime\Filters::escapeHtml($activity->kids, ENT_NOQUOTES) ?></td>
                                             <td><!-- Single button -->
                                                 <div class="btn-group">
                                                     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                                         <span class="glyphicon glyphicon-info-sign"></span> 
                                                     </button>
                                                     <ul class="dropdown-menu">
-                                                        <li style="padding-left: 10px; padding-right: 10px;">{$activity->info}</li>
+                                                        <li style="padding-left: 10px; padding-right: 10px;"><?php echo Latte\Runtime\Filters::escapeHtml($activity->info, ENT_NOQUOTES) ?></li>
                                                     </ul>
                                                 </div>
                                             </td>
 
                                         </tr>
-                                    {/if}
-                                {/foreach}
+<?php } $iterations++; } ?>
                             </table>
                         </div>
                     </div>
@@ -172,4 +175,29 @@
     </div>
 
 </div> <!-- /container -->
-{/block}
+<?php
+}}
+
+//
+// end of blocks
+//
+
+// template extending
+
+$_l->extends = empty($_g->extended) && isset($_control) && $_control instanceof Nette\Application\UI\Presenter ? $_control->findLayoutTemplateFile() : NULL; $_g->extended = TRUE;
+
+if ($_l->extends) { ob_start();}
+
+// prolog Nette\Bridges\ApplicationLatte\UIMacros
+
+// snippets support
+if (empty($_l->extends) && !empty($_control->snippetMode)) {
+	return Nette\Bridges\ApplicationLatte\UIMacros::renderSnippets($_control, $_b, get_defined_vars());
+}
+
+//
+// main template
+//
+if ($_l->extends) { ob_end_clean(); return $template->renderChildTemplate($_l->extends, get_defined_vars()); }
+call_user_func(reset($_b->blocks['content']), $_b, get_defined_vars()) ; 
+}}
