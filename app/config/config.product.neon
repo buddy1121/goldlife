@@ -1,0 +1,9 @@
+parameters:
+
+
+database:
+	dsn: 'mysql:host=c058um.forpsi.com;dbname=f68742'
+	user: "f68742"
+	password: "qx5X9NK"
+	options:
+	    lazy: yes

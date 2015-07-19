@@ -20,7 +20,7 @@ class ActivityPresenter extends BasePresenter {
 
 
     public function renderShow() {
-        $activities = $this->database->table('activities')->fetchAll();
+        $activities = $this->database->table('activities')->order('name')->order('time_start')->fetchAll();
         return $this->template->activities = $activities;
     }
 }

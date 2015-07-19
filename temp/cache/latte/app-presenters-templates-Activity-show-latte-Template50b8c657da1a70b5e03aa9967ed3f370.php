@@ -29,7 +29,7 @@ if (!function_exists($_b->blocks['content'][] = '_lbd6ca82713a_content')) { func
                     </div>
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                            <img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>\img\activity\rozvrh.png"> </img>
+                            <img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>\img\activity\rozvrh.png" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -43,21 +43,41 @@ if (!function_exists($_b->blocks['content'][] = '_lbd6ca82713a_content')) { func
                     </div>
                     <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
+                        <div class="table-responsive">
                             <table class="table table-hover">
-                                <tr><th>Activity</th><th></th><th>To</th><th>Beginning</th><th>End</th><th>How often?</th><th>Kids</th><th>Info</th></tr>
-<?php $iterations = 0; foreach ($activities as $activity) { ?>
-                                            
+                                <tr><th>Day</th><th>From</th><th>To</th><th>Where</th><th>Age group</th><th>Info</th></tr>
+<?php $iterations = 0; foreach ($activities as $activity) { if ($activity->name == 'Gymnastics A & B' || $activity->name == 'Gymnastics I & II') { ?>
                                         <tr>
+                                            <td>
+                                                <?php echo Latte\Runtime\Filters::escapeHtml($activity->day, ENT_NOQUOTES) ?>
 
+                                            </td>
+                                            <td>
+                                                <?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_start , "%H:%I"), ENT_NOQUOTES) ?>
+
+                                            </td>
+                                            <td>
+                                                <?php echo Latte\Runtime\Filters::escapeHtml($template->date($activity->time_end, "%H:%I"), ENT_NOQUOTES) ?>
+
+                                            </td>
+                                            <td>
+                                                <?php echo Latte\Runtime\Filters::escapeHtml($activity->where, ENT_NOQUOTES) ?>
+
+                                            </td>
+                                            <td>
+                                                <?php echo Latte\Runtime\Filters::escapeHtml($activity->category, ENT_NOQUOTES) ?>
+
+                                            </td>
+                                            <td>
                                                 
                                                 <a tabindex="0" class="btn btn-primary glyphicon glyphicon-info-sign" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="<?php echo Latte\Runtime\Filters::escapeHtml($activity->info, ENT_COMPAT) ?>"></a>
-                                                <a class="btn btn-warning glyphicon glyphicon glyphicon-pencil" href="../../components/#navbar" role="button"></a>
-                                                <a class="btn btn-danger glyphicon glyphicon-exclamation-sign" href="../../components/#navbar" role="button"></a>
-                                            </td>
+                                                                                                                                            </td>
                                         </tr>
-                                    
-<?php $iterations++; } ?>
+
+<?php } $iterations++; } ?>
+                                <tr><td></td><td></td><td></td><td><a tabindex="0" class="btn btn-primary glyphicon glyphicon-info-sign" role="button" data-toggle="popover" data-trigger="focus" data-placement="top" data-content="<?php echo Latte\Runtime\Filters::escapeHtml($activity->info, ENT_COMPAT) ?>"></a></td><td></td><td></td></tr>
                             </table>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,19 +96,8 @@ if (!function_exists($_b->blocks['content'][] = '_lbd6ca82713a_content')) { func
 <?php $iterations = 0; foreach ($activities as $activity) { ?>
 
                                         <tr>
+                                            <td>
 
-                                                <div class="btn-group">
-                                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                        Action <span class="caret"></span>
-                                                    </button>
-                                                    <ul class="dropdown-menu">
-                                                        <li><a href="#">Action</a></li>
-                                                        <li><a href="#">Another action</a></li>
-                                                        <li><a href="#">Something else here</a></li>
-                                                        <li role="separator" class="divider"></li>
-                                                        <li><a href="#">Separated link</a></li>
-                                                    </ul>
-                                                </div>
                                             </td>
                                         </tr>
 
@@ -112,7 +121,7 @@ if (!function_exists($_b->blocks['content'][] = '_lbd6ca82713a_content')) { func
 <?php $iterations = 0; foreach ($activities as $activity) { ?>
 
                                         <tr>
-
+                                            <td>
                                                 
                                             </td>
 
