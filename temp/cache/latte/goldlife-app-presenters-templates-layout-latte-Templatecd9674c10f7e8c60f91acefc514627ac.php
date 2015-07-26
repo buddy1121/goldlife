@@ -139,7 +139,8 @@ call_user_func(reset($_b->blocks['head']), $_b, get_defined_vars())  ?>
 ">Activity</a></li>
                         <li ><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link("Homepage:default"), ENT_COMPAT) ?>
 ">Camps</a></li>
-                        <li ><a href="#">Gallery</a></li>
+                        <li ><a href="<?php echo Latte\Runtime\Filters::escapeHtml($_control->link("Gallery:show"), ENT_COMPAT) ?>
+">Gallery</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>

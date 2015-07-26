@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd16584c-0cb2-4df2-9ce7-ac8a1b5d3329" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/config/config.product.neon" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/activity/rozvrh.png" afterPath="$PROJECT_DIR$/www/img/activity/rozvrh.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/img/activity/rozvrh.xcf" afterPath="$PROJECT_DIR$/www/img/activity/rozvrh.xcf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/ActivityPresenter.php" afterPath="$PROJECT_DIR$/app/presenters/ActivityPresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_5ca6392dc0.php.meta" afterPath="$PROJECT_DIR$/temp/cache/Nette.Configurator/Container_5ca6392dc0.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" afterPath="$PROJECT_DIR$/app/presenters/HomepagePresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/PostPresenter.php" afterPath="$PROJECT_DIR$/app/presenters/PostPresenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/_Nette.RobotLoader/_8339d38113ac34f6a56523291b48f70b" afterPath="$PROJECT_DIR$/temp/cache/_Nette.RobotLoader/_8339d38113ac34f6a56523291b48f70b" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/_Nette.Database.27f1120ca91f11729a31c4329d0379bb/_e0fc0f54867d42ccbbda43f316ccba64" afterPath="$PROJECT_DIR$/temp/cache/_Nette.Database.27f1120ca91f11729a31c4329d0379bb/_e0fc0f54867d42ccbbda43f316ccba64" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/temp/cache/latte/app-presenters-templates-Activity-show-latte-Template50b8c657da1a70b5e03aa9967ed3f370.php" afterPath="$PROJECT_DIR$/temp/cache/latte/app-presenters-templates-Activity-show-latte-Template50b8c657da1a70b5e03aa9967ed3f370.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bootstrap.php" afterPath="$PROJECT_DIR$/app/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.local.neon" afterPath="$PROJECT_DIR$/app/config/config.local.neon" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.neon" afterPath="$PROJECT_DIR$/app/config/config.neon" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/templates/Activity/show.latte" afterPath="$PROJECT_DIR$/app/presenters/templates/Activity/show.latte" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\Nette.Configurator\Container_105c30a87c.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\Nette.Configurator\Container_105c30a87c.php.lock" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\Nette.Configurator\Container_105c30a87c.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\Nette.Configurator\Container_5966bb6715.php.lock" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\Nette.Configurator\Container_5ca6392dc0.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\Nette.Configurator\Container_5ca6392dc0.php.lock" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\Nette.Configurator\Container_5ca6392dc0.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\_Nette.Database.27f1120ca91f11729a31c4329d0379bb\_e0fc0f54867d42ccbbda43f316ccba64" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\_Nette.Database.Structure.27f1120ca91f11729a31c4329d0379bb\_07414f4e15ca943e6cde032dec85d92f" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\_Nette.Database.Structure.7893ce38dd804f088322b75b83145b52\_07414f4e15ca943e6cde032dec85d92f" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\_Nette.RobotLoader\_8339d38113ac34f6a56523291b48f70b" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\latte\app-presenters-templates-Activity-show-latte-Template50b8c657da1a70b5e03aa9967ed3f370.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\latte\app-presenters-templates-Activity-show-latte-Template50b8c657da1a70b5e03aa9967ed3f370.php.lock" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\latte\app-presenters-templates-Homepage-default-latte-Template840b00c265c6323b4ec7df9f585660d8.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\latte\app-presenters-templates-Homepage-default-latte-Template840b00c265c6323b4ec7df9f585660d8.php.lock" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\latte\goldlife-app-presenters-templates-layout-latte-Templatecd9674c10f7e8c60f91acefc514627ac.php" afterPath="" />
+      <change type="DELETED" beforePath="D:\weblocal\goldlife\temp\cache\latte\goldlife-app-presenters-templates-layout-latte-Templatecd9674c10f7e8c60f91acefc514627ac.php.lock" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" afterPath="$PROJECT_DIR$/app/presenters/templates/@layout.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/GalleryPresenter.php" afterPath="$PROJECT_DIR$/app/presenters/GalleryPresenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/presenters/templates/Gallery/Show.latte" afterPath="$PROJECT_DIR$/app/presenters/templates/Gallery/Show.latte" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.php" afterPath="$PROJECT_DIR$/www/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/navrh.txt" afterPath="$PROJECT_DIR$/www/navrh.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="goldlife.iws" />
@@ -41,61 +49,147 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SchedulePresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/SchedulePresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="867">
-              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SignPresenter.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/presenters/SignPresenter.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="748">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GalleryPresenter.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GalleryPresenter.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/presenters/GalleryPresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            <state vertical-scroll-proportion="0.21794872" vertical-offset="0" max-vertical-offset="1014">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.local.neon" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
+      <file leaf-file-name="@layout.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/@layout.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13412228" vertical-offset="0" max-vertical-offset="1014">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="2227">
+              <caret line="119" column="56" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="56" />
+              <folding>
+                <marker date="1437832797335" expanded="true" signature="111:4910" placeholder="&lt;html&gt;" />
+                <marker date="1437832797335" expanded="true" signature="122:1059" placeholder="&lt;head&gt;" />
+                <marker date="1437832797335" expanded="true" signature="169:246" placeholder="&lt;title&gt;" />
+                <marker date="1437832797335" expanded="true" signature="176:225" placeholder="{ifset}" />
+                <marker date="1437832797335" expanded="true" signature="189:214" placeholder="{include}" />
+                <marker date="1437832797335" expanded="true" signature="285:296" placeholder="{=}" />
+                <marker date="1437832797335" expanded="true" signature="325:817" placeholder="&lt;Style&gt;" />
+                <marker date="1437832797335" expanded="true" signature="855:866" placeholder="{=}" />
+                <marker date="1437832797335" expanded="true" signature="933:944" placeholder="{=}" />
+                <marker date="1437832797335" expanded="true" signature="1027:1047" placeholder="{block}" />
+                <marker date="1437832797335" expanded="true" signature="1065:4902" placeholder="&lt;body&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1080:2785" placeholder="&lt;div.modal.fade#signIn&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1130:2770" placeholder="&lt;div.modal-dialog.modal-sm&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1182:2751" placeholder="&lt;div.modal-content&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1230:2727" placeholder="&lt;form.form-inline&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1281:1456" placeholder="&lt;div.modal-title&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1335:1425" placeholder="&lt;h4&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1481:2415" placeholder="&lt;div.modal-body&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1550:1829" placeholder="&lt;div.form-group&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1607:1676" placeholder="&lt;label.sr-only&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1858:2144" placeholder="&lt;div.form-group&gt;" />
+                <marker date="1437832797335" expanded="true" signature="1915:1982" placeholder="&lt;label.sr-only&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2173:2384" placeholder="&lt;div.checkbox&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2229:2349" placeholder="&lt;label&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2440:2699" placeholder="&lt;div.modal-footer&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2496:2577" placeholder="&lt;button.btn.btn-default&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2606:2668" placeholder="&lt;button.btn.btn-default&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2795:4459" placeholder="&lt;nav.navbar.navbar-default.navbar-fixed-top&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2860:4444" placeholder="&lt;div.container&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2900:3469" placeholder="&lt;div.navbar-header&gt;" />
+                <marker date="1437832797335" expanded="true" signature="2948:3358" placeholder="&lt;button.navbar-toggle.collapsed&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3117:3163" placeholder="&lt;span.sr-only&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3188:3218" placeholder="&lt;span.icon-bar&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3243:3273" placeholder="&lt;span.icon-bar&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3298:3328" placeholder="&lt;span.icon-bar&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3379:3446" placeholder="&lt;a.navbar-brand&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3409:3432" placeholder="{link}" />
+                <marker date="1437832797335" expanded="true" signature="3526:4425" placeholder="&lt;div#navbar.navbar-collapse.collapse&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3597:4065" placeholder="&lt;ul.nav.navbar-nav&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3649:3696" placeholder="&lt;li&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3654:3691" placeholder="&lt;a&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3721:3783" placeholder="&lt;li.active&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3740:3778" placeholder="&lt;a&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3808:3856" placeholder="&lt;li&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3813:3851" placeholder="&lt;a&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3881:3927" placeholder="&lt;li&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3886:3922" placeholder="&lt;a&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3952:3982" placeholder="&lt;li&gt;" />
+                <marker date="1437832797335" expanded="true" signature="3956:3977" placeholder="&lt;a&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4007:4039" placeholder="&lt;li&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4011:4034" placeholder="&lt;a&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4086:4402" placeholder="&lt;ul.nav.navbar-nav.navbar-right&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4151:4376" placeholder="&lt;li&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4184:4345" placeholder="&lt;button.btn.btn-lg&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4468:4485" placeholder="{include}" />
+                <marker date="1437832797335" expanded="true" signature="4510:4575" placeholder="&lt;footer&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4531:4557" placeholder="&lt;p&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4587:4890" placeholder="{block}" />
+                <marker date="1437832797335" expanded="true" signature="4611:4673" placeholder="&lt;script&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4682:4754" placeholder="&lt;script&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4763:4814" placeholder="&lt;script&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4776:4787" placeholder="{=}" />
+                <marker date="1437832797335" expanded="true" signature="4823:4871" placeholder="&lt;script&gt;" />
+                <marker date="1437832797335" expanded="true" signature="4836:4847" placeholder="{=}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="owl.carousel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/js/owl.carousel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="306.0" vertical-offset="9486" max-vertical-offset="52275">
+              <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+              <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+              <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+              <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Show.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Gallery/Show.latte">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1343">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.product.neon" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.product.neon">
+      <file leaf-file-name="show.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Schedule/show.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1434876226509" expanded="true" signature="0:37" placeholder="{block}" />
+                <marker date="1434876226509" expanded="true" signature="17:28" placeholder="&lt;p&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
+      <file leaf-file-name="show.latte" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/presenters/templates/Activity/show.latte">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="510">
-              <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1319" max-vertical-offset="2346">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,20 +205,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.neon" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.neon">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="680">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PostPresenter.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/presenters/PostPresenter.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="306">
+            <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -144,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/presenters/GalleryPresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/ActivityPresenter.php" />
         <option value="$PROJECT_DIR$/app/presenters/templates/Activity/show.latte" />
         <option value="$PROJECT_DIR$/app/presenters/PostPresenter.php" />
@@ -153,6 +236,12 @@
         <option value="$PROJECT_DIR$/app/config/config.neon" />
         <option value="$PROJECT_DIR$/app/bootstrap.php" />
         <option value="$PROJECT_DIR$/app/config/config.product.neon" />
+        <option value="$PROJECT_DIR$/www/index.php" />
+        <option value="$PROJECT_DIR$/www/js/owl.carousel.js" />
+        <option value="$PROJECT_DIR$/www/navrh.txt" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/@layout.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/templates/Gallery/Show.latte" />
+        <option value="$PROJECT_DIR$/app/presenters/GalleryPresenter.php" />
       </list>
     </option>
   </component>
@@ -189,7 +278,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,6 +293,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -330,7 +468,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Schedule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goldlife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presenters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,17 +544,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="D:/programs/Git/bin/git.exe" />
-    <property name="options.lastSelected" value="fileTemplates" />
+    <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesLatte" value="false" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\weblocal\goldlife\www\css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -381,15 +577,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="f80930bc-2f76-493f-8153-d2bc9b55dece" server_name="goldlife">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="f80930bc-2f76-493f-8153-d2bc9b55dece" server_name="goldlife">
       <method />
     </configuration>
     <list size="0" />
@@ -408,12 +604,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -423,13 +620,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -453,59 +649,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/presenters/ActivityPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Activity/show.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Gallery/Show.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/GalleryPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="323">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/BasePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="544">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/SchedulePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -545,7 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,7 +698,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="867">
           <caret line="8" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -593,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -609,7 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="867">
           <caret line="8" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,7 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -649,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="867">
           <caret line="8" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -705,21 +842,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/HomepagePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/BasePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -736,23 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="459">
           <caret line="22" column="73" selection-start-line="22" selection-start-column="73" selection-end-line="22" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Activity/show.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="248" max-vertical-offset="2346">
-          <caret line="67" column="275" selection-start-line="67" selection-start-column="275" selection-end-line="67" selection-end-column="275" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Gallery/Show.latte">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,14 +885,192 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.879798" vertical-offset="353" max-vertical-offset="1343">
           <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/SchedulePresenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="867">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="680">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.product.neon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13412228" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28500986" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/PostPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="306">
+        <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Schedule/show.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1040">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1434876226509" expanded="true" signature="0:37" placeholder="{block}" />
+            <marker date="1434876226509" expanded="true" signature="17:28" placeholder="&lt;p&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Activity/show.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1319" max-vertical-offset="2346">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/js/owl.carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="306.0" vertical-offset="9486" max-vertical-offset="52275">
+          <caret line="38" column="7" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/navrh.txt">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23564357" vertical-offset="0" max-vertical-offset="1010">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/@layout.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="2227">
+          <caret line="119" column="56" selection-start-line="119" selection-start-column="56" selection-end-line="119" selection-end-column="56" />
+          <folding>
+            <marker date="1437832797335" expanded="true" signature="111:4910" placeholder="&lt;html&gt;" />
+            <marker date="1437832797335" expanded="true" signature="122:1059" placeholder="&lt;head&gt;" />
+            <marker date="1437832797335" expanded="true" signature="169:246" placeholder="&lt;title&gt;" />
+            <marker date="1437832797335" expanded="true" signature="176:225" placeholder="{ifset}" />
+            <marker date="1437832797335" expanded="true" signature="189:214" placeholder="{include}" />
+            <marker date="1437832797335" expanded="true" signature="285:296" placeholder="{=}" />
+            <marker date="1437832797335" expanded="true" signature="325:817" placeholder="&lt;Style&gt;" />
+            <marker date="1437832797335" expanded="true" signature="855:866" placeholder="{=}" />
+            <marker date="1437832797335" expanded="true" signature="933:944" placeholder="{=}" />
+            <marker date="1437832797335" expanded="true" signature="1027:1047" placeholder="{block}" />
+            <marker date="1437832797335" expanded="true" signature="1065:4902" placeholder="&lt;body&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1080:2785" placeholder="&lt;div.modal.fade#signIn&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1130:2770" placeholder="&lt;div.modal-dialog.modal-sm&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1182:2751" placeholder="&lt;div.modal-content&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1230:2727" placeholder="&lt;form.form-inline&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1281:1456" placeholder="&lt;div.modal-title&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1335:1425" placeholder="&lt;h4&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1481:2415" placeholder="&lt;div.modal-body&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1550:1829" placeholder="&lt;div.form-group&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1607:1676" placeholder="&lt;label.sr-only&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1858:2144" placeholder="&lt;div.form-group&gt;" />
+            <marker date="1437832797335" expanded="true" signature="1915:1982" placeholder="&lt;label.sr-only&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2173:2384" placeholder="&lt;div.checkbox&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2229:2349" placeholder="&lt;label&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2440:2699" placeholder="&lt;div.modal-footer&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2496:2577" placeholder="&lt;button.btn.btn-default&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2606:2668" placeholder="&lt;button.btn.btn-default&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2795:4459" placeholder="&lt;nav.navbar.navbar-default.navbar-fixed-top&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2860:4444" placeholder="&lt;div.container&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2900:3469" placeholder="&lt;div.navbar-header&gt;" />
+            <marker date="1437832797335" expanded="true" signature="2948:3358" placeholder="&lt;button.navbar-toggle.collapsed&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3117:3163" placeholder="&lt;span.sr-only&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3188:3218" placeholder="&lt;span.icon-bar&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3243:3273" placeholder="&lt;span.icon-bar&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3298:3328" placeholder="&lt;span.icon-bar&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3379:3446" placeholder="&lt;a.navbar-brand&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3409:3432" placeholder="{link}" />
+            <marker date="1437832797335" expanded="true" signature="3526:4425" placeholder="&lt;div#navbar.navbar-collapse.collapse&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3597:4065" placeholder="&lt;ul.nav.navbar-nav&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3649:3696" placeholder="&lt;li&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3654:3691" placeholder="&lt;a&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3721:3783" placeholder="&lt;li.active&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3740:3778" placeholder="&lt;a&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3808:3856" placeholder="&lt;li&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3813:3851" placeholder="&lt;a&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3881:3927" placeholder="&lt;li&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3886:3922" placeholder="&lt;a&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3952:3982" placeholder="&lt;li&gt;" />
+            <marker date="1437832797335" expanded="true" signature="3956:3977" placeholder="&lt;a&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4007:4039" placeholder="&lt;li&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4011:4034" placeholder="&lt;a&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4086:4402" placeholder="&lt;ul.nav.navbar-nav.navbar-right&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4151:4376" placeholder="&lt;li&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4184:4345" placeholder="&lt;button.btn.btn-lg&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4468:4485" placeholder="{include}" />
+            <marker date="1437832797335" expanded="true" signature="4510:4575" placeholder="&lt;footer&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4531:4557" placeholder="&lt;p&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4587:4890" placeholder="{block}" />
+            <marker date="1437832797335" expanded="true" signature="4611:4673" placeholder="&lt;script&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4682:4754" placeholder="&lt;script&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4763:4814" placeholder="&lt;script&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4776:4787" placeholder="{=}" />
+            <marker date="1437832797335" expanded="true" signature="4823:4871" placeholder="&lt;script&gt;" />
+            <marker date="1437832797335" expanded="true" signature="4836:4847" placeholder="{=}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/presenters/templates/Gallery/Show.latte">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="1343">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -796,58 +1083,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/GalleryPresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/presenters/SchedulePresenter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847" vertical-offset="0" max-vertical-offset="867">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/presenters/SignPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="748">
+        <state vertical-scroll-proportion="0.63708085" vertical-offset="0" max-vertical-offset="1014">
           <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.neon">
+    <entry file="file://$PROJECT_DIR$/app/presenters/BasePresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="680">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
+    <entry file="file://$PROJECT_DIR$/www/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="510">
-          <caret line="17" column="77" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.10059172" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.product.neon">
+    <entry file="file://$PROJECT_DIR$/app/presenters/ErrorPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.31854042" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.local.neon">
+    <entry file="file://$PROJECT_DIR$/app/presenters/GalleryPresenter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13412228" vertical-offset="0" max-vertical-offset="1014">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.21794872" vertical-offset="0" max-vertical-offset="1014">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding />
         </state>
       </provider>
