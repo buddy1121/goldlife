@@ -1,9 +1,8 @@
 <?php
-// source: D:\weblocal\goldlife\app/config/config.neon development
+// source: D:\weblocal\goldlife\app/config/config.neon 
 // source: D:\weblocal\goldlife\app/config/config.local.neon 
-// source: D:\weblocal\goldlife\app/config/config.product.neon 
 
-class Container_105c30a87c extends Nette\DI\Container
+class Container_5ca6392dc0 extends Nette\DI\Container
 {
 
 	protected $meta = array(
@@ -32,6 +31,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.7',
 					'application.8',
 					'application.9',
+					'application.10',
+					'application.11',
 					'container',
 				),
 			),
@@ -90,6 +91,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\Application\UI\Presenter' => array(
@@ -101,6 +104,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\Application\UI\Control' => array(
@@ -112,6 +117,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\Application\UI\PresenterComponent' => array(
@@ -123,6 +130,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\ComponentModel\Container' => array(
@@ -134,6 +143,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\ComponentModel\Component' => array(
@@ -145,6 +156,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\Application\UI\IRenderable' => array(
@@ -156,6 +169,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\ComponentModel\IContainer' => array(
@@ -167,6 +182,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\ComponentModel\IComponent' => array(
@@ -178,6 +195,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\Application\UI\ISignalReceiver' => array(
@@ -189,6 +208,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\Application\UI\IStatePersistent' => array(
@@ -200,6 +221,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'ArrayAccess' => array(
@@ -211,6 +234,8 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.5',
 					'application.6',
 					'application.7',
+					'application.8',
+					'application.9',
 				),
 			),
 			'Nette\Application\IPresenter' => array(
@@ -224,31 +249,37 @@ class Container_105c30a87c extends Nette\DI\Container
 					'application.7',
 					'application.8',
 					'application.9',
+					'application.10',
+					'application.11',
 				),
 			),
 			'App\Presenters\ActivityPresenter' => array(array('application.1')),
-			'App\Presenters\ErrorPresenter' => array(array('application.2')),
-			'App\Presenters\GalleryPresenter' => array(array('application.3')),
-			'App\Presenters\HomepagePresenter' => array(array('application.4')),
-			'App\Presenters\PostPresenter' => array(array('application.5')),
-			'App\Presenters\SchedulePresenter' => array(array('application.6')),
-			'App\Presenters\SignPresenter' => array(array('application.7')),
-			'NetteModule\ErrorPresenter' => array(array('application.8')),
-			'NetteModule\MicroPresenter' => array(array('application.9')),
+			'App\Presenters\CampsPresenter' => array(array('application.2')),
+			'App\Presenters\ContactPresenter' => array(array('application.3')),
+			'App\Presenters\ErrorPresenter' => array(array('application.4')),
+			'App\Presenters\GalleryPresenter' => array(array('application.5')),
+			'App\Presenters\HomepagePresenter' => array(array('application.6')),
+			'App\Presenters\PostPresenter' => array(array('application.7')),
+			'App\Presenters\SchedulePresenter' => array(array('application.8')),
+			'App\Presenters\SignPresenter' => array(array('application.9')),
+			'NetteModule\ErrorPresenter' => array(array('application.10')),
+			'NetteModule\MicroPresenter' => array(array('application.11')),
 			'Nette\DI\Container' => array(1 => array('container')),
 		),
 		'services' => array(
 			'25_App_Forms_SignFormFactory' => 'App\Forms\SignFormFactory',
 			'26_App_Model_UserManager' => 'App\Model\UserManager',
 			'application.1' => 'App\Presenters\ActivityPresenter',
-			'application.2' => 'App\Presenters\ErrorPresenter',
-			'application.3' => 'App\Presenters\GalleryPresenter',
-			'application.4' => 'App\Presenters\HomepagePresenter',
-			'application.5' => 'App\Presenters\PostPresenter',
-			'application.6' => 'App\Presenters\SchedulePresenter',
-			'application.7' => 'App\Presenters\SignPresenter',
-			'application.8' => 'NetteModule\ErrorPresenter',
-			'application.9' => 'NetteModule\MicroPresenter',
+			'application.10' => 'NetteModule\ErrorPresenter',
+			'application.11' => 'NetteModule\MicroPresenter',
+			'application.2' => 'App\Presenters\CampsPresenter',
+			'application.3' => 'App\Presenters\ContactPresenter',
+			'application.4' => 'App\Presenters\ErrorPresenter',
+			'application.5' => 'App\Presenters\GalleryPresenter',
+			'application.6' => 'App\Presenters\HomepagePresenter',
+			'application.7' => 'App\Presenters\PostPresenter',
+			'application.8' => 'App\Presenters\SchedulePresenter',
+			'application.9' => 'App\Presenters\SignPresenter',
 			'application.application' => 'Nette\Application\Application',
 			'application.linkGenerator' => 'Nette\Application\LinkGenerator',
 			'application.presenterFactory' => 'Nette\Application\IPresenterFactory',
@@ -278,6 +309,8 @@ class Container_105c30a87c extends Nette\DI\Container
 		'tags' => array(
 			'inject' => array(
 				'application.1' => TRUE,
+				'application.10' => TRUE,
+				'application.11' => TRUE,
 				'application.2' => TRUE,
 				'application.3' => TRUE,
 				'application.4' => TRUE,
@@ -289,14 +322,16 @@ class Container_105c30a87c extends Nette\DI\Container
 			),
 			'nette.presenter' => array(
 				'application.1' => 'App\Presenters\ActivityPresenter',
-				'application.2' => 'App\Presenters\ErrorPresenter',
-				'application.3' => 'App\Presenters\GalleryPresenter',
-				'application.4' => 'App\Presenters\HomepagePresenter',
-				'application.5' => 'App\Presenters\PostPresenter',
-				'application.6' => 'App\Presenters\SchedulePresenter',
-				'application.7' => 'App\Presenters\SignPresenter',
-				'application.8' => 'NetteModule\ErrorPresenter',
-				'application.9' => 'NetteModule\MicroPresenter',
+				'application.10' => 'NetteModule\ErrorPresenter',
+				'application.11' => 'NetteModule\MicroPresenter',
+				'application.2' => 'App\Presenters\CampsPresenter',
+				'application.3' => 'App\Presenters\ContactPresenter',
+				'application.4' => 'App\Presenters\ErrorPresenter',
+				'application.5' => 'App\Presenters\GalleryPresenter',
+				'application.6' => 'App\Presenters\HomepagePresenter',
+				'application.7' => 'App\Presenters\PostPresenter',
+				'application.8' => 'App\Presenters\SchedulePresenter',
+				'application.9' => 'App\Presenters\SignPresenter',
 			),
 		),
 		'aliases' => array(
@@ -372,9 +407,57 @@ class Container_105c30a87c extends Nette\DI\Container
 
 
 	/**
-	 * @return App\Presenters\ErrorPresenter
+	 * @return NetteModule\ErrorPresenter
+	 */
+	public function createServiceApplication__10()
+	{
+		$service = new NetteModule\ErrorPresenter($this->getService('tracy.logger'));
+		return $service;
+	}
+
+
+	/**
+	 * @return NetteModule\MicroPresenter
+	 */
+	public function createServiceApplication__11()
+	{
+		$service = new NetteModule\MicroPresenter($this, $this->getService('http.request'), $this->getService('routing.router'));
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Presenters\CampsPresenter
 	 */
 	public function createServiceApplication__2()
+	{
+		$service = new App\Presenters\CampsPresenter;
+		$service->injectPrimary($this, $this->getService('application.presenterFactory'), $this->getService('routing.router'),
+			$this->getService('http.request'), $this->getService('http.response'), $this->getService('session.session'),
+			$this->getService('security.user'), $this->getService('latte.templateFactory'));
+		$service->invalidLinkMode = 5;
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Presenters\ContactPresenter
+	 */
+	public function createServiceApplication__3()
+	{
+		$service = new App\Presenters\ContactPresenter;
+		$service->injectPrimary($this, $this->getService('application.presenterFactory'), $this->getService('routing.router'),
+			$this->getService('http.request'), $this->getService('http.response'), $this->getService('session.session'),
+			$this->getService('security.user'), $this->getService('latte.templateFactory'));
+		$service->invalidLinkMode = 5;
+		return $service;
+	}
+
+
+	/**
+	 * @return App\Presenters\ErrorPresenter
+	 */
+	public function createServiceApplication__4()
 	{
 		$service = new App\Presenters\ErrorPresenter($this->getService('tracy.logger'));
 		$service->injectPrimary($this, $this->getService('application.presenterFactory'), $this->getService('routing.router'),
@@ -388,7 +471,7 @@ class Container_105c30a87c extends Nette\DI\Container
 	/**
 	 * @return App\Presenters\GalleryPresenter
 	 */
-	public function createServiceApplication__3()
+	public function createServiceApplication__5()
 	{
 		$service = new App\Presenters\GalleryPresenter;
 		$service->injectPrimary($this, $this->getService('application.presenterFactory'), $this->getService('routing.router'),
@@ -402,7 +485,7 @@ class Container_105c30a87c extends Nette\DI\Container
 	/**
 	 * @return App\Presenters\HomepagePresenter
 	 */
-	public function createServiceApplication__4()
+	public function createServiceApplication__6()
 	{
 		$service = new App\Presenters\HomepagePresenter;
 		$service->injectPrimary($this, $this->getService('application.presenterFactory'), $this->getService('routing.router'),
@@ -416,7 +499,7 @@ class Container_105c30a87c extends Nette\DI\Container
 	/**
 	 * @return App\Presenters\PostPresenter
 	 */
-	public function createServiceApplication__5()
+	public function createServiceApplication__7()
 	{
 		$service = new App\Presenters\PostPresenter;
 		$service->injectPrimary($this, $this->getService('application.presenterFactory'), $this->getService('routing.router'),
@@ -430,7 +513,7 @@ class Container_105c30a87c extends Nette\DI\Container
 	/**
 	 * @return App\Presenters\SchedulePresenter
 	 */
-	public function createServiceApplication__6()
+	public function createServiceApplication__8()
 	{
 		$service = new App\Presenters\SchedulePresenter;
 		$service->injectPrimary($this, $this->getService('application.presenterFactory'), $this->getService('routing.router'),
@@ -444,7 +527,7 @@ class Container_105c30a87c extends Nette\DI\Container
 	/**
 	 * @return App\Presenters\SignPresenter
 	 */
-	public function createServiceApplication__7()
+	public function createServiceApplication__9()
 	{
 		$service = new App\Presenters\SignPresenter;
 		$service->injectPrimary($this, $this->getService('application.presenterFactory'), $this->getService('routing.router'),
@@ -452,26 +535,6 @@ class Container_105c30a87c extends Nette\DI\Container
 			$this->getService('security.user'), $this->getService('latte.templateFactory'));
 		$service->factory = $this->getService('25_App_Forms_SignFormFactory');
 		$service->invalidLinkMode = 5;
-		return $service;
-	}
-
-
-	/**
-	 * @return NetteModule\ErrorPresenter
-	 */
-	public function createServiceApplication__8()
-	{
-		$service = new NetteModule\ErrorPresenter($this->getService('tracy.logger'));
-		return $service;
-	}
-
-
-	/**
-	 * @return NetteModule\MicroPresenter
-	 */
-	public function createServiceApplication__9()
-	{
-		$service = new NetteModule\MicroPresenter($this, $this->getService('http.request'), $this->getService('routing.router'));
 		return $service;
 	}
 
@@ -550,7 +613,7 @@ class Container_105c30a87c extends Nette\DI\Container
 	 */
 	public function createServiceDatabase__default__connection()
 	{
-		$service = new Nette\Database\Connection('mysql:host=c058um.forpsi.com;dbname=f68742', 'f68742', 'qx5X9NK', array('lazy' => TRUE));
+		$service = new Nette\Database\Connection('mysql:host=localhost;dbname=goldlife', 'root', '15114', array('lazy' => TRUE));
 		$this->getService('tracy.blueScreen')->addPanel('Nette\Bridges\DatabaseTracy\ConnectionPanel::renderException');
 		Nette\Database\Helpers::createDebugPanel($service, TRUE, 'default');
 		return $service;
@@ -637,7 +700,7 @@ class Container_105c30a87c extends Nette\DI\Container
 	 */
 	public function createServiceLatte__latteFactory()
 	{
-		return new Container_105c30a87c_Nette_Bridges_ApplicationLatte_ILatteFactoryImpl_latte_latteFactory($this);
+		return new Container_5ca6392dc0_Nette_Bridges_ApplicationLatte_ILatteFactoryImpl_latte_latteFactory($this);
 	}
 
 
@@ -777,13 +840,13 @@ class Container_105c30a87c extends Nette\DI\Container
 
 
 
-final class Container_105c30a87c_Nette_Bridges_ApplicationLatte_ILatteFactoryImpl_latte_latteFactory implements Nette\Bridges\ApplicationLatte\ILatteFactory
+final class Container_5ca6392dc0_Nette_Bridges_ApplicationLatte_ILatteFactoryImpl_latte_latteFactory implements Nette\Bridges\ApplicationLatte\ILatteFactory
 {
 
 	private $container;
 
 
-	public function __construct(Container_105c30a87c $container)
+	public function __construct(Container_5ca6392dc0 $container)
 	{
 		$this->container = $container;
 	}

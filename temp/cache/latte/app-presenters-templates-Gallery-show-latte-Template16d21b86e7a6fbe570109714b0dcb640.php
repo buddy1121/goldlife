@@ -12,8 +12,8 @@ list($_b, $_g, $_l) = $template->initialize('19071b505d', 'html')
 // block content
 //
 if (!function_exists($_b->blocks['content'][] = '_lb8316428864_content')) { function _lb8316428864_content($_b, $_args) { foreach ($_args as $__k => $__v) $$__k = $__v
-?>    <div class="container">
-        <div class="modal fade" id="GalleryCarousel">
+?>    <div class="container jumbotron text-center">
+        <div class="modal fade" id="AthleticsGalleryCarousel">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-title">
@@ -68,24 +68,49 @@ if (!function_exists($_b->blocks['content'][] = '_lb8316428864_content')) { func
         </div>
 
 
-        <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-target="#GalleryCarousel">
-
+        <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                data-target="#AthleticsGalleryCarousel">
+            <h3>Athletics</h3>
         </button>
-        <div class="container-fluid">
-            <div class="row">
-<?php $iterations = 0; foreach ($iterator = $_l->its[] = new Latte\Runtime\CachingIterator($images) as $image) { ?>
-                <div class="col-lg-2">
+        <!-- <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                 data-target="#GalleryCarousel" style="">
 
+                  <h3>gymnastics</h3>
+             <figcaption>
+                <a type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                   data-target="#GalleryCarousel" style="">some kind of text </a>
+           </figcaption>
+         </button>
+         <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                 data-target="#GalleryCarousel">
+             <h3>swimming</h3>
+         </button>
+         <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                 data-target="#GalleryCarousel">
+             <h3>dancing</h3>
+         </button>
+         <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                 data-target="#GalleryCarousel">
+             <h3>summer camps</h3>
+         </button>-->
+        <!--<ul class="grid cs-style-1">
+            <li>
+                <figure>
+                    <img src="<?php echo Latte\Runtime\Filters::escapeHtmlComment($basePath) ?>/img/" alt="img01">
+                    <figcaption>
+                        <h3>Camera</h3>
+                        <span>Jacob Cummings</span>
+                        <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
 
-<?php Tracy\Debugger::barDump(($image), '$image') ?>
-                    <img src="<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($basePath), ENT_COMPAT) ?>
-/<?php echo Latte\Runtime\Filters::escapeHtml(Latte\Runtime\Filters::safeUrl($image), ENT_COMPAT) ?>
-" class="img-responsive" alt="<?php echo Latte\Runtime\Filters::escapeHtml($iterator->counter, ENT_COMPAT) ?>">
-                </div>
-<?php $iterations++; } array_pop($_l->its); $iterator = end($_l->its) ?>
-                </div>
-        </div>
+                </figure>
+            </li>
 
+        </ul> -->
     </div>
 <?php
 }}

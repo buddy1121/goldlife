@@ -5,121 +5,125 @@
 
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
+<head>
+    <meta charset="utf-8">
 
-        <title>{ifset title}{include title|striptags} | {/ifset}Nette Sandbox</title>
+    <title>{ifset title}{include title|striptags} | {/ifset}SA GoldLife</title>
 
-        <link rel="stylesheet" href="{$basePath}/css/bootstrap.css">
-        <Style type="text/css">
-            body{
-                padding-top: 60px;
-                padding-bottom: 40px;
+    <link rel="stylesheet" href="{$basePath}/css/bootstrap.css">
+    <Style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+
+        .sidebar-nav {
+            padding: 9px 0;
+        }
+
+        @media (max-width: 980px) {
+            /* Enable use of floated navbar text */
+            .navbar-text.pull-right {
+                float: none;
+                padding-left: 5px;
+                padding-right: 5px;
             }
-            .sidebar-nav {
-                padding: 9px 0;
-            }
+        }</style>
+    <link rel="stylesheet" href="{$basePath}/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="{$basePath}/css/extras.css">
+    <link rel="shortcut icon" class="glyphicon glyphicon-leaf" >
+    <meta name="viewport" content="width=device-width">
+    {block head}{/block}
+</head>
 
-            @media (max-width: 980px) {
-                /* Enable use of floated navbar text */
-                .navbar-text.pull-right {
-                    float: none;
-                    padding-left: 5px;
-                    padding-right: 5px;
-                }
-            }</style>
-        <link rel="stylesheet" href="{$basePath}/css/bootstrap-theme.css">
-        <link rel="shortcut icon" href="{$basePath}/favicon.ico">
-        <meta name="viewport" content="width=device-width">
-        {block head}{/block}
-    </head>
-
-    <body>
-        <div class="modal fade" id="signIn" >
-            <div class="modal-dialog modal-sm">
-                <div class="modal-content">
-                    <form class="form-inline">
-                        <div class="modal-title">
-                            <h4>
-                                Sign In            
-                            </h4>
-                        </div>
-                        <div class="modal-body">                
-                            <div class="form-group">
-                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-                            </div>
-                            <div class="form-group">
-                                <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-                            </div>
-                            <div class="checkbox ">
-                                <label>
-                                    <input type="checkbox"> Remember me
-                                </label>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-
-                            <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
-                            <button type="submit" class="btn btn-default">Sign in</button>
-                        </div>
-                    </form> 
+<body>
+<div class="modal fade" id="signIn">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <form class="form-inline">
+                <div class="modal-title">
+                    <h4>
+                        Sign In
+                    </h4>
                 </div>
-            </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label class="sr-only" for="exampleInputPassword3">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                    </div>
+                    <div class="checkbox ">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                    <button type="submit" class="btn btn-default">Sign in</button>
+                </div>
+            </form>
         </div>
+    </div>
+</div>
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="{link Homepage:default}">GoldLife</a>
+        </div>
+        <!--/.nav-collapse -->
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a n:href="Homepage:default">Home</a></li>
+                <li class="active"><a n:href="Activity:show">Activity</a></li>
+                <li><a n:href="Camps:default">Camps</a></li>
+                <li><a n:href="Gallery:show">Gallery</a></li>
+                <li><a n:href="Contact:default">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#signIn">
+                        Sign in
                     </button>
-                    <a class="navbar-brand" href="{link Homepage:default}">GoldLife</a>
-                </div>
-                <!--/.nav-collapse -->
 
-                <div id="navbar" class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li ><a n:href="Homepage:default">Home</a></li>
-                        <li class="active"><a n:href="Activity:show">Activity</a></li>
-                        <li ><a n:href="Homepage:default">Camps</a></li>
-                        <li ><a n:href="Gallery:show">Gallery</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#signIn">
-                                Sign in
-                            </button>
-
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        {include content}
-
-
-        <hr>
-
-        <footer>
-            <p>&copy; Company 2013</p>
-        </footer>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+{include content}
 
 
 
-        {block scripts}
-        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-        <script src="//nette.github.io/resources/js/netteForms.min.js"></script>
-        <script src="{$basePath}/js/bootstrap.js"></script>
-        <script src="{$basePath}/js/extras.js"></script>
+
+<footer class="footer">
+
+    <div class="container">
+
+        <p class="text-muted">&copy; Company 2013</p>
+    </div>
+</footer>
 
 
-        {/block}
-    </body>
+
+{block scripts}
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//nette.github.io/resources/js/netteForms.min.js"></script>
+    <script src="{$basePath}/js/bootstrap.js"></script>
+    <script src="{$basePath}/js/extras.js"></script>
+{/block}
+</body>
 </html>

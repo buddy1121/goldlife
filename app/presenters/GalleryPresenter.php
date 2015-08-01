@@ -11,7 +11,7 @@ class GalleryPresenter extends BasePresenter
 
     public function loadAllPhotos()
     {
-        $images = ("img/gallery/\*.jpg");
+        $images = glob("img/gallery/*.jpg");
         return $images;
     }
 
@@ -20,12 +20,6 @@ class GalleryPresenter extends BasePresenter
     {
         $images = $this->loadAllPhotos();
         return $this->template->images = $images;
-        foreach ($images as $image) {
-            echo $image;
-
-
-        }
-
     }
 
 

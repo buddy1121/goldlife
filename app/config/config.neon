@@ -2,7 +2,7 @@
 # WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
 # http://nette.org/security-warning
 #
-common:
+
 
     parameters:
 
@@ -26,10 +26,6 @@ common:
         - App\Forms\SignFormFactory
         router: App\RouterFactory::createRouter
 
-production < common:
-	includes:
-	- config.product.neon
 
-development < common:
     includes:
     - config.local.neon

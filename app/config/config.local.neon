@@ -2,8 +2,8 @@ parameters:
         
 
 database:
-	dsn: 'mysql:host=127.0.0.1;dbname=goldlife'
+	dsn: 'mysql:host=localhost;dbname=goldlife'
 	user: "root"
-	password: ""
+	password: "15114"
 	options:
 		lazy: yes

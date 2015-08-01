@@ -1,6 +1,6 @@
 {block content}
-    <div class="container">
-        <div class="modal fade" id="GalleryCarousel">
+    <div class="container jumbotron text-center">
+        <div class="modal fade" id="AthleticsGalleryCarousel">
             <div class="modal-dialog modal-lg">
                 <div class="modal-content">
                     <div class="modal-title">
@@ -54,21 +54,48 @@
         </div>
 
 
-        <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-target="#GalleryCarousel">
-
+        <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                data-target="#AthleticsGalleryCarousel">
+            <h3>Athletics</h3>
         </button>
-        <div class="container-fluid">
-            <div class="row">
-            {foreach $images as $image}
-                <div class="col-lg-2">
+        <!-- <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                 data-target="#GalleryCarousel" style="">
 
+                  <h3>gymnastics</h3>
+             <figcaption>
+                <a type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                   data-target="#GalleryCarousel" style="">some kind of text </a>
+           </figcaption>
+         </button>
+         <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                 data-target="#GalleryCarousel">
+             <h3>swimming</h3>
+         </button>
+         <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                 data-target="#GalleryCarousel">
+             <h3>dancing</h3>
+         </button>
+         <button type="button" class="btn btn-lg glyphicon glyphicon-camera" data-toggle="modal" data-trigger="hover"
+                 data-target="#GalleryCarousel">
+             <h3>summer camps</h3>
+         </button>-->
+        <!--<ul class="grid cs-style-1">
+            <li>
+                <figure>
+                    <img src="{$basePath}/img/" alt="img01">
+                    <figcaption>
+                        <h3>Camera</h3>
+                        <span>Jacob Cummings</span>
+                        <a href="http://dribbble.com/shots/1115632-Camera">Take a look</a>
+                    </figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
 
-                    {dump $image}
-                    <img src="{$basePath}/{$image}" class="img-responsive" alt="{$iterator->counter}">
-                </div>
-            {/foreach}
-                </div>
-        </div>
+                </figure>
+            </li>
 
+        </ul> -->
     </div>
 {/block}
